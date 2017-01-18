@@ -2,8 +2,56 @@
 
 body {
   font-family: "Open Sans";
+  font-weight: lighter;
+  font-size: 100%;
+  background: #FBFBFB;
+}
+.container2 {
+  background: white;
+  width: auto;
+}
+h1 {
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-variant: normal;
+  font-weight: lighter;
+  font-stretch: extra-expanded;
+}
+h2 {
+  font-family: "Open Sans";
+  font-size: 31px;
+  font-variant: normal;
+  font-weight: lighter;
+  font-stretch: extra-expanded;
+}
+p {
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 100;
+  font-stretch: semi-expanded;
+  font-size-adjust: auto;
+  line-height: 160%;
+  color: #3b444b;
 }
 
+h4 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #969c9c;
+}
+li {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line height: 250%
+  color: #5a5a5a;
+  background-color: inherit;
+}
+ul {
+  line-height: 300%;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
