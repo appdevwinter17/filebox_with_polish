@@ -1,4 +1,8 @@
-
+body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
+  font-family: "Open Sans";
+}
 
 .row {
   clear: both;
@@ -11,24 +15,28 @@
   background-color: white;
 }*/
 
-.navbar-white {
+.white {
   background-color: white;
 }
-.navbar-blue{
-  color: blue;
+
+.navbar a {
+  color:  rgb(0,126,229) !important;
 }
+
+
+/*
 
 .lightgrey{
   background-color: #f9f9f9;
 }
+
 .imagematch{
-  
+
   background-blend-mode: screen;
   background-color: #f9f9f9;
+}*/
 
-}
-
-.better-hdr{
+.better-hr{
   font-stretch: semi-expanded;
   font-weight: lighter;
   padding-top: 5px;
@@ -42,17 +50,17 @@
   line-height: 1.6;
 }
 
-.better-footer{
+.better-ftr-li{
   /*font-weight: lighter;*/
   line-height: 2;
   font-stretch: semi-expanded;
-  color: grey;
+  color: rgb(119,119,119);
 }
 
-.btr-ftr-hdr{
-  font-size: medium;
+.better-ftr-hr-4{
+  font-size: 16px;
   font-weight: bolder;
-  color: grey;
+  color: rgb(153,153,153);
   font-stretch: ultra-condensed;
 }
 
